@@ -17,6 +17,6 @@ jobs:
   
     - name: Build the hello-world Docker image
       run: |
-        docker build . --tag ghcr.io/harsh/nasaDocker:latest
-        docker run ghcr.io/harsh/nasaDocker:latest
-        docker push ghcr.io/harsh/nasaDocker:latest
+        docker build . --tag ghcr.io/harsh/nasadocker:latest
+        docker run ghcr.io/harsh/nasadocker:latest
+        docker push ghcr.io/harsh/nasadocker:latest
