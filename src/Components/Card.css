@@ -1,0 +1,48 @@
+.card{
+background: #FFFFFF;
+box-shadow: 0px 4px 12px rgba(32, 54, 72, 0.05);
+border-radius: 16px;
+padding: 2em;
+margin-bottom: 2em;
+}
+
+.media{
+    width: 440px;
+    height: 440px;
+    object-fit: contain;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc:first-letter{
+    text-transform: capitalize
+  }
+
+.btn{
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 4px;
+    padding: 5px 30px;
+    background-color: white;
+    min-width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(128, 128, 128);
+
+}
+
+.btn:hover{
+    background-color: rgb(245, 244, 244);
+}
+
+.shade{
+    color: #1877F2;
+    border: 1px solid #1877F2;
+    font-weight: bold;
+}
+

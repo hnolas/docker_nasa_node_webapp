@@ -1,0 +1,11 @@
+
+
+.container{
+  max-width: 500px;
+  margin: auto;
+}
+
+.subPara{
+  font-size: 13px;
+  color: gray;
+}
