@@ -14,3 +14,9 @@ jobs:
         echo $CR_PAT | docker login ghcr.io -u hnolas --password-stdin
       env:
         CR_PAT: ${{ secrets.CR_PAT }}
+        
+    - name: Build the hello-world Docker image
+      run: |
+        docker build . --tag ghrc.io/hnolas/nasawebapp-final
+        docker run ghrc.io/hnolas/nasawebapp-final
+        docker push ghrc.io/hnolas/nasawebapp-final
