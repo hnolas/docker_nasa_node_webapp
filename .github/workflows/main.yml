@@ -17,6 +17,6 @@ jobs:
         
     - name: Build the hello-world Docker image
       run: |
-        docker build . --tag ghrc.io/hnolas/nasawebapp-final
-        docker run ghrc.io/hnolas/nasawebapp-final
-        docker push ghrc.io/hnolas/nasawebapp-final
+        docker build . --tag ghcr.io/hnolas/nasawebapp-final
+        docker run ghcr.io/hnolas/nasawebapp-final
+        docker push ghcr.io/hnolas/nasawebapp-final
